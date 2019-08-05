@@ -1,0 +1,18 @@
+{
+  "name": "pokefier",
+  "version": "0.0.1",
+  "description": "A simple discord bot to identify pokecord spawns!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Syntax#2793",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "snekfetch": "^4.0.4"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}
