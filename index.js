@@ -15,7 +15,7 @@ client.identify = imageRecognition = (client, message, blob) => {
         let name = hash[pokemon];
         if (name) {
             // Pokemon exists in database
-            client.user.setActivity(`A wild ${name} appeard!`, { type: 'WATCHING' });
+            client.user.setActivity(`A wild ${name} appeared!`, { type: 'WATCHING' });
         } else {
             // Missingno! Console hash if pokemon hash doesnt exist in database
             console.warn(`Missingno hash: ${pokemon}`);
